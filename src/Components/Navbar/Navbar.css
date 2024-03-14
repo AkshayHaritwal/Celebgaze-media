@@ -1,0 +1,117 @@
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+}
+
+nav .logo {
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+/* nav .logo img{
+    
+} */
+
+nav ul {
+  margin-left: 2rem;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1.6rem 0 0.4rem;
+  font-size: 0.9rem;
+  transition: all;
+  transition-duration: 1ms;
+}
+
+nav ul li:hover {
+  transform: scale(1.03);
+}
+
+nav ul li a:hover {
+  color: deepskyblue;
+}
+
+.white-nav {
+  transition: 0.5s;
+  background-color: white;
+  box-shadow: 1px 3px 10px 4px rgb(222, 221, 221);
+}
+.menu-icon {
+  display: none;
+}
+
+/* --------------------------------------  Media query ----------------------------- */
+
+@media only screen and (max-width: 1000px) and (min-width: 100px) {
+  nav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    justify-content: space-between;
+  }
+  nav ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(63, 89, 237);
+    z-index: -1;
+    width: 250px;
+    padding-top: 70px;
+    transition: all 0.4s ease-out 0s;
+  }
+  nav ul li {
+    display: block;
+    margin: 20px 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(182, 181, 181);
+  }
+  nav ul li a {
+    color: white;
+    transition: all 0.4s ease-out 0s;
+  }
+  nav ul li a:hover {
+    color: white;
+    text-shadow: 1px 1px 3px grey;
+    transform: scale(1.03);
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: blue;
+    text-align: center;
+  }
+
+  .hide-menu {
+    right: -300px;
+  }
+
+  #nav-bar {
+    padding-right: 5%;
+  }
+  .show-menu {
+    color: white;
+  }
+}
+
+
+@media only screen  and (max-width:350px) and (min-width:0px){
+  nav ul{
+    width: 130px;
+  }
+  nav ul li {
+    margin: 20px 0px 20px 20px;
+  }
+  #nav-bar{
+    padding-left: 0;
+    padding-right: 2%;
+  }
+}

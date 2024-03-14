@@ -1,0 +1,133 @@
+.ourproducts {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.ourproducts .features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 28%;
+  border-right: 3px solid rgb(232, 234, 239);
+  padding: 0 3rem;
+}
+
+.ourproducts .features ul li {
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: all 0.3s linear 0s;
+}
+
+.ourproducts .features ul li:hover {
+  transform: scale(1.05);
+}
+
+.ourproducts .features ul li a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(80, 80, 86);
+  transition: all 0.3s linear 0s;
+
+  border-radius: 0px;
+}
+
+.ourproducts .features ul li a:hover {
+  color: black;
+}
+.ourproducts .features ul li a i {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: rgb(99, 99, 106);
+  display: inline-block;
+  margin-right: 10px;
+  background: rgb(241, 242, 247);
+  border-radius: 50%;
+}
+
+.ourproducts .feature-image {
+  max-width: 36%;
+  padding: 0 1rem;
+}
+.ourproducts .feature-image img {
+  width: 100%;
+}
+
+.ourproducts .rawlive {
+  max-width: 36%;
+  padding: 0 1rem;
+}
+
+.ourproducts .rawlive h3 {
+  font-size: 2.7rem;
+  line-height: 54px;
+  margin-bottom: 10px;
+}
+.ourproducts .rawlive p {
+  font-size: 1.1rem;
+  line-height: 28px;
+  padding-bottom: 1.9rem;
+}
+
+.ourproducts .rawlive .btn {
+  font-weight: 500;
+  text-align: center;
+
+  font-size: 15px;
+  line-height: 45px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background-color: rgb(43, 112, 250);
+  white-space: nowrap;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(43, 112, 250);
+  padding: 0px 30px;
+  border-radius: 6px;
+  transition: all 0.4s ease-out 0s;
+}
+.ourproducts .rawlive .btn:hover {
+  background-color: white;
+  color: rgb(43, 112, 250);
+}
+
+/* --------------------------------------  Media query ----------------------------- */
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .ourproducts {
+    flex-direction: column;
+  }
+
+  .ourproducts .features {
+    max-width: 90%;
+    border-right: none;
+    padding: 0 0;
+  }
+
+  .ourproducts .features ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+  }
+
+  
+.ourproducts .feature-image {
+  max-width: 100%;
+  padding-top: 1.5rem;
+
+}
+
+.ourproducts .rawlive {
+  max-width: 100%;
+  padding-top: 1.5rem;
+
+}
+}

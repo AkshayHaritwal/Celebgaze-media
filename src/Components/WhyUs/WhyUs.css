@@ -1,0 +1,190 @@
+.whyus {
+  width: 100%;
+
+  padding-top: 130px;
+  padding-bottom: 180px;
+
+  padding-left: 10%;
+}
+.whyus .whyus-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.whyus .whyus-main .whyus-left {
+  width: 60%;
+}
+.whyus .heading {
+  /* padding-right: 220px; */
+  margin-bottom: 43px;
+}
+
+.whyus .heading h3 {
+  font-size: 2.8rem;
+  line-height: 54px;
+  font-weight: 800;
+}
+
+.whyus .heading p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(80, 80, 86);
+}
+.whyus .why-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.whyus .why-content2 {
+  display: flex;
+  align-items: center;
+}
+.whyus .whyus-item {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 9rem;
+}
+.whyus .whyus-item i {
+  height: 26px;
+  width: 26px;
+  text-align: center;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  box-shadow: rgba(16, 73, 189, 0.3) 0px 6px 10px 0px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.whyus .whyus-item .green {
+  background: linear-gradient(
+    135deg,
+    rgb(160, 234, 194) 0%,
+    rgb(49, 195, 105) 100%
+  );
+}
+
+.whyus .whyus-item .blue {
+  background: linear-gradient(
+    135deg,
+    rgb(132, 188, 250) 0%,
+    rgb(43, 112, 250) 100%
+  );
+}
+
+.whyus .whyus-item .orange {
+  background: linear-gradient(
+    135deg,
+    rgb(247, 184, 175) 0%,
+    rgb(248, 69, 45) 100%
+  );
+}
+
+.whyus .whyus-item .violet {
+  background: linear-gradient(
+    135deg,
+    rgb(216, 170, 255) 0%,
+    rgb(155, 44, 250) 100%
+  );
+}
+
+/* 
+.whyus .whyus-item .detail {
+
+} */
+
+.whyus .whyus-item .detail h5 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 7px;
+}
+
+.whyus .whyus-item .detail p {
+  font-size: 15px;
+}
+
+.whyus .join-btn {
+  margin-top: 50px;
+}
+
+.whyus .join-btn .btn {
+  font-weight: 500;
+  text-align: center;
+
+  font-size: 15px;
+  line-height: 45px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background-color: rgb(43, 112, 250);
+  white-space: nowrap;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(43, 112, 250);
+  padding: 0px 30px;
+  border-radius: 6px;
+  transition: all 0.4s ease-out 0s;
+}
+
+.whyus .join-btn .btn:hover {
+  background-color: white;
+  color: rgb(43, 112, 250);
+}
+
+.whyus .join-btn .btn i {
+  padding-left: 6px;
+}
+
+.whyus .whyus-right {
+  width: 38%;
+}
+
+.whyus .whyus-right img {
+  width: 100%;
+}
+
+/* --------------------------------------  Media query ----------------------------- */
+
+@media only screen and (min-width: 0px) and (max-width: 1300px) {
+  
+.whyus .whyus-right {
+  display: none;
+}
+
+.whyus .whyus-main .whyus-left {
+  width: 100%;
+}
+}
+
+@media only screen and (min-width: 0px) and (max-width: 850px) {
+  .whyus .why-content {
+    display: block;
+    margin-bottom: 0;
+  }
+  .whyus .why-content2 {
+    display: block;
+    margin-bottom: 0;
+  }
+  .whyus .whyus-item {
+    display: flex;
+    justify-content: flex-start;
+    margin-right:0;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+  .whyus .heading h3 {
+    font-size: 1.8rem;
+    line-height: 54px;
+    font-weight: 800;
+}
+
+.whyus{
+  
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+}
+

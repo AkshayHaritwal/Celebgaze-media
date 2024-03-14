@@ -1,0 +1,56 @@
+.connect{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.connect .connect-content{
+    padding: 0 1rem;
+    padding-left: 70px;
+    padding-top: 75px;
+    padding-bottom: 85px;
+    border-radius: 10px;
+    display: flex;
+
+    flex-direction: column;
+    background-image: linear-gradient(to right,blue, rgb(62, 57, 202) ,rgb(56, 250, 250));
+} 
+
+.connect .connect-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 10px;
+}
+
+.connect .connect-content h4{
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.connect .connect-content p{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* --------------------------------------  Media query ----------------------------- */
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+.connect .connect-content{
+    padding: 0 1rem;
+    padding-left: 50px;
+    padding-top: 75px;
+    padding-bottom: 85px;
+}
+
+.connect .connect-content h2{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+
+}
